@@ -1,0 +1,770 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu-fixo {
+    position: fixed;
+    z-index: 11;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.pt-section-um {
+    padding-top: 70px;
+}
+
+.menu-monitor {
+    display: none;
+}
+
+.menu-mobile {
+    display: block;
+}
+
+.fa-bars{
+    color: #274D80;
+    font-size: 1.5em;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.imagem-menu {
+    height: 50px;
+    margin-right: 8px;
+}
+
+.nome-menu {
+    font-size: 1.5em;
+    color: #274D80;
+    font-weight: 600;
+    font-family: 'PT Serif', serif;
+    text-decoration: none !important;
+}
+
+.link-menu {
+    font-size: 0.8em;
+    text-decoration: none !important;
+    margin-left: 15px;
+    font-weight: 500;
+    color: #343a40!important;
+}
+
+.link-menu:hover {
+    color: #274D80 !important;
+}
+
+.fa-chevron-down {
+    margin-left: 2px;
+}
+
+.btn-post {
+    background-color: #274D80;
+    color: white;
+    font-size: 0.8em;
+    font-weight: 600;
+    width: 130px;
+    height: 35px;
+    margin-top: 6px;
+    border-radius: 7px;
+}
+
+.btn-post:hover {
+    background-color: white;
+    color: #274D80;
+    border: #274D80 solid 2px;
+}
+
+.btn-login {
+    background-color: #00000024;
+    color: #274D80;
+    font-size: 0.8em;
+    font-weight: 600;
+    width: 130px;
+    height: 35px;
+    margin-top: 6px;
+    border-radius: 7px;
+}
+
+.btn-login:hover {
+    background-color: white;
+    color: #274D80;
+    border: #274D80 solid 2px;
+}
+
+.btn-upload {
+    background-color: transparent;
+    font-size: 0.8em;
+    font-weight: 600;
+    color: #274D80;
+    height: 35px;
+    text-decoration: none;
+    margin-top: 6px;
+    border-radius: 7px;
+}
+
+.btn-upload:hover {
+    background-color: white;
+    color: #274D80;
+    border: #274D80 solid 2px;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.bg-section-um {
+    background-image: url(../Imagens/BgSectionUm.png);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    background-repeat: no-repeat;
+    order: 1;
+}
+
+.cor-azul {
+    color: #274D80;
+}
+
+.div-section-um {
+    padding: 70px 0px 70px 0px;
+    order: 2;
+}
+
+.titulo-section-um {
+    font-weight: 600;
+    font-size: 1.9em;
+}
+
+.texto-principal {
+    font-weight: 600;
+    font-size: 0.7em;
+}
+
+.div-inputs {
+    height: auto;
+    padding: 10px 0px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 35px 0px rgb(70 86 117 / 10%);
+    margin-left: 0px;
+}
+
+.input-cidade {
+    border: unset;
+    width: 100%;
+    height: 50px;
+    font-size: 0.75em;
+    padding-left: 40px;
+    margin-top: 6px;
+}
+
+.input-trabalho {
+    border: unset;
+    height: 50px;
+    width: 100%;
+    font-size: 0.75em;
+    padding-left: 36px;
+    margin-top: 6px;
+}
+
+.fa-search {
+    position: absolute;
+    left: 23px;
+    top: 23px;
+    font-size: 1.3em;
+}
+
+.fa-map-marker-alt {
+    position: absolute;
+    left: 29px;
+    top: 22px;
+    font-size: 1.3em;
+}
+
+.btn-div-input {
+    background-color: #274D80;
+    color: white;
+    font-size: 0.8em;
+    font-weight: 600;
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+
+.btn-div-input:hover {
+    background-color: white;
+    color: #274D80;
+    border: #274D80 solid 2px;
+}
+
+.icone-envelope {
+    color: gold;
+    background-color: rgba(255, 217, 0, 0.178);
+    border-radius: 7px;
+    position: absolute;
+    font-size: 1em;
+    width: 35px;
+    height: 35px;
+    padding-left: 10px;
+    padding-top: 4px;
+    left: 7px;
+    top: 7px;
+}
+
+.texto-envelope {
+    font-weight: 700;
+    font-size: 0.68em;
+    margin-left: 4px;
+    padding-top: 11px;
+}
+
+.div-envelope {
+    width: 162px;
+    height: 47px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 4px 35px 0px rgb(70 86 117 / 10%);
+    position: absolute;
+}
+
+.fa-check-circle {
+    color: rgba(255, 0, 0, 0.144);
+    position: absolute;
+    font-size: 1.3em;
+    top: 14px;
+    right: 10px;
+}
+
+.icone-mala {
+    color: red;
+    background-color: rgba(255, 0, 0, 0.144);
+    border-radius: 100%;
+    position: absolute;
+    font-size: 1em;
+    width: 35px;
+    height: 35px;
+    padding-left: 10px;
+    padding-top: 4px;
+    left: 7px;
+    top: 7px;
+}
+
+.div-agencia {
+    width: 180px;
+    height: 51px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 4px 35px 0px rgb(70 86 117 / 10%);
+    position: absolute;
+}
+
+.div-upload {
+    width: 190px;
+    height: 52px;
+    padding-left: 30px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 4px 35px 0px rgb(70 86 117 / 10%);
+    position: absolute;
+}
+
+.icone-upload {
+    width: 45px;
+    height: 45px;
+    font-size: 1.4em;
+    background-color: white;
+    box-shadow: 0px 4px 35px 0px rgb(70 86 117 / 15%);
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-left: 15px;
+    position: absolute;
+    top: -13px;
+    left: -48px;
+    
+}
+.imagens-cadidates{
+    border-radius: 100%;
+    border: 2px solid white;
+    height: 35px;
+    margin-right: -17px;
+}
+
+.div-candidates {
+    width: 135px;
+    height: 80px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 4px 35px 0px rgb(70 86 117 / 10%);
+    position: absolute;
+}
+
+.bg-main-section {
+    background-color: rgba(0, 0, 0, 0.459);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    display: none;
+}
+
+@media (max-width: 330px) {
+
+    .bg-main-section {
+        display: block;
+    }
+
+    .bg-section-um {
+        height: 350px;
+    }
+
+    .bg-main-section {
+        display: block;
+    }
+
+    .div-envelope {
+        top: 25px;
+        left: unset;
+        right: 35px;
+        z-index: 8;
+    }
+
+    .div-candidates {
+        right: unset;
+        left: 30px;
+        top: 95px;
+        z-index: 8;
+    }
+
+    .div-agencia {
+        right: 25px;
+        top: 200px;
+        z-index: 8;
+    }
+
+    .div-upload {
+        bottom: 23px;
+        left: 41px;
+        z-index: 8;
+    }
+
+}
+
+@media (max-width: 425px) and (min-width:  331px) {
+
+    .bg-section-um {
+        height: 365px;
+    }
+
+    .bg-main-section {
+        display: block;
+    }
+
+    .div-envelope {
+        top: 25px;
+        left: unset;
+        right: 50px;
+        z-index: 8;
+    }
+
+    .div-candidates {
+        right: unset;
+        left: 60px;
+        top: 95px;
+        z-index: 8;
+    }
+
+    .div-agencia {
+        right: 38px;
+        top: 200px;
+        z-index: 8;
+    }
+
+    .div-upload {
+        bottom: 23px;
+        left: 51px;
+        z-index: 8;
+    }
+}
+
+@media (max-width: 575px) and (min-width:  426px) {
+
+    .bg-section-um {
+        height: 350px;
+    }
+
+    .div-envelope {
+        top: 15px;
+        left: 35px
+    }
+
+    .div-candidates {
+        right: 5px;
+        top: 60px;
+    }
+
+    .div-agencia {
+        right: 15px;
+        top: 233px;
+    }
+
+    .div-upload {
+        bottom: 20px;
+        left: 26px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+
+    .bg-section-um {
+        height: 400px;
+    }
+
+    .imagens-cadidates{
+        margin-right: -13px;
+    }
+
+    .div-envelope {
+        top: 20px;
+        left: 50px
+    }
+
+    .div-candidates {
+        width: 160px;
+        right: 9px;
+        top: 75px;
+    }
+
+    .div-agencia {
+        right: 45px;
+        top: 270px;
+    }
+
+    .div-upload {
+        bottom: 40px;
+        left: 20px;
+    }
+
+    .fa-map-marker-alt {
+        position: absolute;
+        left: 35px;
+    }
+
+    .input-cidade {
+        width: 150px;
+        height: 50px;
+    }
+    
+    .input-trabalho {
+        height: 50px;
+        width: 217px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .bg-section-um {
+        height: 450px;
+    }
+
+    .imagens-cadidates{
+        margin-right: -13px;
+    }
+    
+    .div-envelope {
+        top: 20px;
+        left: 102px
+    }
+
+    .div-candidates {
+        width: 160px;
+        right: 55px;
+        top: 75px;
+    }
+
+    .div-agencia {
+        right: 122px;
+        top: 285px;
+    }
+
+    .div-upload {
+        bottom: 55px;
+        left: 55px;
+    }
+
+    .input-cidade {
+        width: 150px;
+        height: 50px;
+    }
+    
+    .input-trabalho {
+        height: 50px;
+        width: 217px;
+    }
+
+    .btn-div-input {
+        width: 130px;
+        margin-top: unset;
+        height: 60px;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+
+    .menu-monitor {
+        display: block;
+    }
+
+    .menu-mobile {
+        display: none;
+    }
+
+    .imagem-menu {
+        height: 40px;
+        margin-right: 2px;
+    }
+
+    .nome-menu {
+        font-size: 1.2em;
+    }
+
+    .link-menu {
+        font-size: 0.7em;
+        margin-left: 12px;
+    }
+
+    .btn-post {
+        font-size: 0.65em;
+        width: 100px;
+        margin-top: 3px;
+    }
+    
+    .btn-login {
+        font-size: 0.65em;
+        width: 100px;
+        margin-top: 3px;
+    }
+    
+    .btn-upload {
+        font-size: 0.65em;
+        margin-top: 3px;
+    }
+
+    .bg-section-um {
+        height: 410px;
+        order: 2 !important;
+    }
+
+    .div-section-um {
+        padding: 85px 0px 70px 15px;
+        order: 1 !important;
+    }
+
+    .titulo-section-um {
+        font-size: 2.2em;
+    }
+
+    .btn-div-input {
+        font-size: 0.76em;
+        width: 100px;
+        margin-top: unset;
+        margin-left: -15px;
+    }
+    
+    .fa-search {
+        font-size: 1em;
+        left: 20px;
+        top: 17px;
+    }
+
+    .input-trabalho {
+        height: 50px;
+        width: 180px;
+        font-size: 0.7em;
+        padding-left: 24px;
+        margin-top: unset !important;
+    }
+
+    .fa-map-marker-alt {
+        font-size: 1em;
+        top: 18px;
+    }
+
+    .input-cidade {
+        height: 50px;
+        width: 118px;
+        font-size: 0.7em;
+        padding-left: 30px;
+        margin-top: unset !important;
+    }
+
+    .div-inputs {
+        margin-right: 15px;
+        height: 70px;
+    }
+
+    .div-candidates {
+        width: 160px;
+        right: -8px;
+        top: 28px;
+    }
+
+    .div-upload {
+        bottom: 25px;
+        left: 5px;
+    }
+
+    .div-envelope {
+        top: 35px;
+        left: -6px;
+    }
+
+    .div-agencia {
+        right: 24px;
+        top: 280px;
+    }
+
+    .imagens-cadidates {
+        border: 2px solid white;
+        height: 40px;
+        margin-right: -18px;
+    }
+
+    .div-candidates {
+        width: 180px;
+        height: 85px;
+        right: -5px;
+        top: 50px;
+    }
+}
+
+@media (min-width: 1201px) {
+
+    .menu-monitor {
+        display: block;
+    }
+
+    .menu-mobile {
+        display: none;
+    }
+
+    .div-section-um {
+        padding: 85px 0px 70px 15px;
+        order: 1 !important;
+    }
+
+    .bg-section-um {
+        order: 2 !important;
+    }
+
+    .div-inputs {
+        margin-right: 15px;
+    }
+
+    .input-cidade {
+        width: 133px;
+        height: 50px;    
+        margin-top: 7px;
+    }
+
+    .fa-map-marker-alt {
+        top: 23px;
+    }
+    
+    .input-trabalho {
+        height: 50px;
+        width: 217px;
+        margin-top: 7px;
+    }
+
+    .fa-search {
+        top: 23px;
+    }
+
+    .btn-div-input {
+        width: 130px;
+        margin-top: unset;
+        height: 60px;
+        margin-left: -30px;
+    }
+
+    .titulo-section-um {
+        font-size: 2.4em;
+    }
+
+    .icone-envelope {
+        font-size: 1.4em;
+        width: 45px;
+        height: 45px;
+        padding-left: 12px;
+        padding-top: 6px;
+        left: 12px;
+        top: 8px;
+    }
+
+    .div-envelope {
+        width: 195px;
+        height: 60px;
+        top: 46px;
+        left: -6px;
+    }
+
+    .icone-mala {
+        font-size: 1.4em;
+        width: 45px;
+        height: 45px;
+        padding-left: 12px;
+        padding-top: 6px;
+        left: 12px;
+        top: 8px;
+    }
+
+    .texto-envelope {
+        font-size: 0.7em;
+        margin-left: 25px;
+        padding-top: 16px;
+    }
+
+    .div-agencia {
+        width: 220px;
+        height: 60px;
+        right: 24px;
+        top: 350px;
+    }
+
+    .fa-check-circle {
+        font-size: 1.7em;
+        top: 16px;
+        right: 13px;
+    }
+
+    .imagens-cadidates {
+        border: 3px solid white;
+        height: 50px;
+        margin-right: -20px;
+    }
+
+    .div-candidates {
+        width: 210px;
+        height: 100px;
+        right: 0px;
+        top: 90px;
+    }
+
+    .div-upload {
+        width: 210px;
+        height: 60px;
+        padding-left: 18px;
+        bottom: 40px;
+        left: 30px;
+    }
+
+    .icone-upload {
+        width: 50px;
+        height: 50px;
+        padding-top: 7px;
+        padding-left: 17px;
+    }
+}

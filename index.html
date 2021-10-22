@@ -7,18 +7,183 @@
   
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="JS/index.js"/>
-  
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="CSS/index.css"/>
+
+        <link rel="shortcut icon" href="Imagens/logo.png"/>
         <title>Hello, world!</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1>Hello, world!</h1>
+
+        <header class="bg-light">
+            <div class=" menu-fixo">
+                <div class="menu-monitor">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-7 text-left">
+                                <a href="#" class="mr-2" style="text-decoration: none;">
+                                    <img class="rounded-circle imagem-menu" src="Imagens/logo.png"/>
+                                    <span class="nome-menu">Jane</span>
+                                </a>
+                                <a href="#" class="link-menu dropdown menu-dropdown link-scroll" type="namber" id="dropdownMenuHome" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Home <i class="fas fa-chevron-down"></i>
+                                </a>
+                                <div class="dropdown-menu" id="dropdownhome" aria-labelledby="dropdownMenuHome">
+                                    <a class="dropdown-item link-scroll" href="#">Home 1</a>
+                                    <a class="dropdown-item link-scroll" href="#">Home 2</a>
+                                    <a class="dropdown-item link-scroll" href="#">Home 3</a>
+                                </div>
+                                <a href="#" class="link-menu dropdown menu-dropdown link-scroll" type="namber" id="dropdownMenuEmpregos" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Find Jobs <i class="fas fa-chevron-down"></i>
+                                </a>
+                                <div class="dropdown-menu" id="dropdownemprego" aria-labelledby="dropdownMenuEmpregos">
+                                    <a class="dropdown-item link-scroll" href="#">Empregos</a>
+                                    <a class="dropdown-item link-scroll" href="#">Empregos</a>
+                                    <a class="dropdown-item link-scroll" href="#">Empregos</a>
+                                </div>
+                                <a href="#" class="link-menu dropdown menu-dropdown link-scroll" type="namber" id="dropdownMenuEmpregadores" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Employers <i class="fas fa-chevron-down"></i>
+                                </a>
+                                <div class="dropdown-menu" id="dropdown" aria-labelledby="dropdownMenuEmpregadores">
+                                    <a class="dropdown-item link-scroll" href="#">Empregadores</a>
+                                    <a class="dropdown-item link-scroll" href="#">Empregadores</a>
+                                    <a class="dropdown-item link-scroll" href="#">Empregadores</a>
+                                </div>
+                                <a href="#" class="link-menu dropdown menu-dropdown link-scroll" type="namber" id="dropdownMenuCandidatos" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Candidates <i class="fas fa-chevron-down"></i>
+                                </a>
+                                <div class="dropdown-menu" id="dropdown" aria-labelledby="dropdownMenuCandidatos">
+                                    <a class="dropdown-item link-scroll" href="#">Candidatos</a>
+                                    <a class="dropdown-item link-scroll" href="#">Candidatos</a>
+                                    <a class="dropdown-item link-scroll" href="#">Candidatos</a>
+                                </div>
+                                <a href="#" class="link-menu dropdown menu-dropdown link-scroll" type="namber" id="dropdownMenuBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Blog <i class="fas fa-chevron-down"></i>
+                                </a>
+                                <div class="dropdown-menu" id="dropdown" aria-labelledby="dropdownMenuBlog">
+                                    <a class="dropdown-item link-scroll" href="#">Blog</a>
+                                    <a class="dropdown-item link-scroll" href="#">Blog</a>
+                                    <a class="dropdown-item link-scroll" href="#">Blog</a>
+                                </div>
+                                <a href="#" class="link-menu dropdown menu-dropdown link-scroll" type="namber" id="dropdownMenuPaginas" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Pages <i class="fas fa-chevron-down"></i>
+                                </a>
+                                <div class="dropdown-menu" id="dropdown" aria-labelledby="dropdownMenuPaginas">
+                                    <a class="dropdown-item link-scroll" href="#">Páginas</a>
+                                    <a class="dropdown-item link-scroll" href="#">Páginas</a>
+                                    <a class="dropdown-item link-scroll" href="#">Páginas</a>
+                                </div>
+                            </div>
+                            <div class="col-5 text-right">
+                                <a class="mr-2" href="#">
+                                    <button type="button" class="btn btn-upload">Upload your CV</button>
+                                </a>
+                                <a class="mr-2" href="#">
+                                    <button type="button" class="btn btn-login">Login / Register</button>
+                                </a>
+                                <a href="#">
+                                    <button type="button" class="btn btn-post">Job Post</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-mobile">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-6 text-left">
+                                <a href="#" class="mr-2" style="text-decoration: none;">
+                                    <img class="rounded-circle imagem-menu" src="Imagens/logo.png"/>
+                                    <span class="nome-menu">Jane</span>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-6 text-right">
+                                <i class="fas fa-bars"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="bg-light position-relative pt-section-um">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-0 col-12 text-lg-left text-center div-section-um ordem-1">
+                        <h1 class="titulo-section-um text-dark">There Are <span class="cor-azul">93,178</span> Postings Here For You!</h1>
+                        <p class="texto-principal text-secondary mt-3">Find Jobs, Employment & Career Opportunities</p>
+                        <div class="row div-inputs mt-4">
+                            <div class="col-lg-5 col-md-5 col-sm-7 col-12 position-relative">
+                                <input class="input-trabalho" placeholder="Job title, keywords, company">
+                                <i class="fas fa-search text-secondary"></i>
+                            </div>
+                            <div class="col-lg-4 col-md-3 col-sm-5 col-12 position-relative">
+                                <input class="input-cidade" placeholder="City or postcode">
+                                <i class="fas fa-map-marker-alt text-secondary"></i>
+                            </div>
+                           <div class="col-lg-3 col-md-4 col-sm-12 col-12">
+                            <a href="#">
+                                <button type="button" class="btn btn-div-input">Job Post</button>
+                            </a>
+                           </div>
+                        </div>
+                        <p class="texto-principal text-secondary mt-3">
+                            <span class="text-dark">Popular Searches:</span> Designer, WEB, IOS, PHP, Senior, Engineer
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-12 position-relative bg-section-um ordem-2">
+                        <div class="div-envelope">
+                            <div class="position-relative pl-5">
+                                <div class="icone-envelope">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <h6 class="text-dark texto-envelope">Work Inquiry From<br>Ali Tufan</h6>
+                            </div>
+                        </div>
+                        <div class="div-agencia">
+                            <div class="position-relative pl-5">
+                                <div class="icone-mala">
+                                    <i class="fas fa-briefcase"></i>
+                                </div>
+                                <h6 class="text-dark texto-envelope">Creative Agency <br>
+                                    <span class="text-secondary">Startup</span>
+                                </h6>
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
+                        <div class="div-upload">
+                            <div class="position-relative">
+                                <div class="icone-upload">
+                                    <i class="fas fa-file-upload text-success"></i>
+                                </div>
+                                <h6 class="text-dark texto-envelope">Upload Your CV<br>
+                                    <span class="text-secondary">It only takes a few seconds</span>
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="text-center div-candidates">
+                            <h6 class="text-dark texto-envelope" style="margin-left: unset !important;">10k+ Candidates</h6>
+                            <img class="imagens-cadidates" src="https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/testimonials-1.jpg"/>
+                            <img class="imagens-cadidates" src="https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/testimonials-2.jpg"/>
+                            <img class="imagens-cadidates" src="https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/testimonials-3.jpg"/>
+                            <img class="imagens-cadidates" src="https://startbootstrap.github.io/startbootstrap-resume/assets/img/profile.jpg"/>
+                            <img class="imagens-cadidates" style="margin-right: unset !important;" src="Imagens/mais.png"/>
+                        </div>
+                        <main class="bg-main-section"></main>
+                    </div>
+                </div>
+            </div>
+        </section>
   
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <script src="CSS/index.css"></script>
+        <script src="JS/index.js"></script>
     </body>
 </html>
