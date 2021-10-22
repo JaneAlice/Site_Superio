@@ -127,7 +127,7 @@ a:hover {
 }
 
 .div-section-um {
-    padding: 70px 0px 70px 0px;
+    padding: 70px 0px 50px 0px;
     order: 2;
 }
 
@@ -351,6 +351,24 @@ a:hover {
         z-index: 8;
     }
 
+    .titulo-section-um {
+        font-size: 1.6em;
+    }
+
+    .div-inputs {
+        margin-left: auto;
+        margin-right: auto;
+        width: 270px;
+    }
+
+    .imagem-menu {
+        height: 40px;
+    }
+
+    .fa-bars {
+        font-size: 1.4em;
+    }
+
 }
 
 @media (max-width: 425px) and (min-width:  331px) {
@@ -388,6 +406,24 @@ a:hover {
         left: 51px;
         z-index: 8;
     }
+
+    .div-inputs {
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+    }
+
+    .titulo-section-um {
+        font-size: 1.6em;
+    }
+
+    .imagem-menu {
+        height: 40px;
+    }
+
+    .fa-bars {
+        font-size: 1.4em;
+    }
 }
 
 @media (max-width: 575px) and (min-width:  426px) {
@@ -415,6 +451,17 @@ a:hover {
         bottom: 20px;
         left: 26px;
     }
+
+    .div-inputs {
+        margin-left: auto;
+        margin-right: auto;
+        width: 380px;
+    }
+
+    .imagem-menu {
+        height: 40px;
+    }
+
 }
 
 @media (max-width: 767px) and (min-width: 576px) {
@@ -461,6 +508,12 @@ a:hover {
     .input-trabalho {
         height: 50px;
         width: 217px;
+    }
+
+    .div-inputs {
+        margin-left: auto;
+        margin-right: auto;
+        width: 450px;
     }
 }
 
