@@ -175,7 +175,7 @@ a:hover {
     font-size: 1.3em;
 }
 
-.fa-map-marker-alt {
+.map-section-um {
     position: absolute;
     left: 29px;
     top: 22px;
@@ -357,6 +357,64 @@ a:hover {
     width: 100%;
 }
 
+.card-featured-jobs {
+    display: flex;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 6px;
+    padding: 20px 20px 20px 20px;
+}
+
+.div-full-time {
+    font-size: 0.8em;
+    background-color: hsl(214deg 67% 92%);
+    height: 25px;
+    width: 80px;
+    border-radius: 20px;
+    padding-top: 2px;
+    margin-left: 15px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.div-private {
+    font-size: 0.8em;
+    background-color: hsl(131deg 36% 91%);
+    height: 25px;
+    width: 80px;
+    border-radius: 20px;
+    padding-top: 2px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.div-urgent {
+    font-size: 0.8em;
+    background-color: hsl(40deg 95% 93%);
+    height: 25px;
+    width: 80px;
+    border-radius: 20px;
+    padding-top: 2px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.imagem-feature-jobs {
+    height: 45px;
+    border-radius: 8px;
+    margin-right: 25px;
+    margin-top: 7px;
+}
+
+.btn-more-listing {
+    background-color: #274D80;
+    color: white;
+    font-size: 0.85em;
+    font-weight: 600;
+    width: 180px;
+    height: 45px;
+    border-radius: 7px;
+}
+
 @media (max-width: 330px) {
 
     .bg-main-section {
@@ -437,6 +495,28 @@ a:hover {
         padding-left: 2px;
     }
 
+    .div-full-time {
+        font-size: 0.7em;
+        height: 21px;
+        width: 65px;
+    }
+    
+    .div-private {
+        font-size: 0.7em;
+        height: 21px;
+        width: 65px;
+    }
+    
+    .div-urgent {
+        font-size: 0.7em;
+        height: 21px;
+        width: 65px;
+    }
+
+    .imagem-feature-jobs {
+        height: 40px;
+        margin-right: 20px;
+    }
 }
 
 @media (max-width: 425px) and (min-width:  331px) {
@@ -511,6 +591,29 @@ a:hover {
         width: 135px;
         padding-top: 5px;
         padding-left: 2px;
+    }
+
+    .div-full-time {
+        font-size: 0.7em;
+        height: 21px;
+        width: 65px;
+    }
+    
+    .div-private {
+        font-size: 0.7em;
+        height: 21px;
+        width: 65px;
+    }
+    
+    .div-urgent {
+        font-size: 0.7em;
+        height: 21px;
+        width: 65px;
+    }
+
+    .imagem-feature-jobs {
+        height: 40px;
+        margin-right: 20px;
     }
 }
 
@@ -600,7 +703,7 @@ a:hover {
         left: 20px;
     }
 
-    .fa-map-marker-alt {
+    .map-section-um {
         position: absolute;
         left: 35px;
     }
@@ -753,7 +856,7 @@ a:hover {
         margin-top: unset !important;
     }
 
-    .fa-map-marker-alt {
+    .map-section-um {
         font-size: 1em;
         top: 18px;
     }
@@ -835,7 +938,7 @@ a:hover {
         margin-top: 7px;
     }
 
-    .fa-map-marker-alt {
+    .map-section-um {
         top: 23px;
     }
     
