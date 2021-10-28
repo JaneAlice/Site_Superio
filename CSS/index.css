@@ -415,6 +415,10 @@ a:hover {
     border-radius: 7px;
 }
 
+.imagens-logo {
+    height: 30px;
+}
+
 @media (max-width: 330px) {
 
     .bg-main-section {
@@ -517,6 +521,10 @@ a:hover {
         height: 40px;
         margin-right: 20px;
     }
+
+    .imagens-logo {
+        height: 20px;
+    }
 }
 
 @media (max-width: 425px) and (min-width:  331px) {
@@ -615,6 +623,10 @@ a:hover {
         height: 40px;
         margin-right: 20px;
     }
+
+    .imagens-logo {
+        height: 20px;
+    }
 }
 
 @media (max-width: 575px) and (min-width:  426px) {
@@ -668,6 +680,10 @@ a:hover {
     .card-popular-job {
         height: 93px;
         padding-top: 9px;
+    }
+
+    .imagens-logo {
+        height: 22px;
     }
 
 }
@@ -731,6 +747,10 @@ a:hover {
     .titulo-popular-jobs {
         font-size: 12px;
     }
+
+    .imagens-logo {
+        height: 23px;
+    }
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
@@ -777,6 +797,10 @@ a:hover {
         width: 130px;
         margin-top: unset;
         height: 60px;
+    }
+
+    .imagens-logo {
+        height: 25px;
     }
 }
 
