@@ -484,6 +484,31 @@ a:hover {
     font-size: 1.9em;
 }
 
+.imagem-card-noticias {
+    border-radius: 5px;
+    height: 210px;
+}
+
+.card-noticias {
+    padding: 10px;
+    border: unset;
+    box-shadow: 0px 4px 35px 0px rgb(70 86 117 / 8%);
+}
+
+.descricao-card-noticias {
+    font-size: 0.8em;
+}
+
+.link-card-noticias {
+    text-decoration: none;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+.link-card-noticias:hover {
+    color: #274D80 !important;
+}
+
 @media (max-width: 330px) {
 
     .bg-main-section {
@@ -623,6 +648,27 @@ a:hover {
         padding-left: 10px !important;
     }
 
+    .imagem-card-noticias {
+        height: auto;
+    }
+
+    .card-noticias {
+        margin-bottom: 15px;
+    }
+
+    
+    .link-card-noticias {
+        font-size: 0.65em;
+    }
+
+    .padding-card-body {
+        padding: 5px;
+    }
+
+    .descricao-card-noticias {
+        font-size: 0.7em;
+    }
+
 }
 
 @media (max-width: 425px) and (min-width:  331px) {
@@ -757,6 +803,27 @@ a:hover {
         line-height: 35px;
         padding-left: 10px !important;
     }
+
+    .imagem-card-noticias {
+        height: auto;
+    }
+
+    .card-noticias {
+        margin-bottom: 15px;
+    }
+
+    
+    .link-card-noticias {
+        font-size: 0.65em;
+    }
+
+    .padding-card-body {
+        padding: 5px;
+    }
+
+    .descricao-card-noticias {
+        font-size: 0.7em;
+    }
 }
 
 @media (max-width: 575px) and (min-width:  426px) {
@@ -845,6 +912,14 @@ a:hover {
     .texto-lista {
         font-size: 0.78em;
         line-height: 35px;
+    }
+
+    .imagens-empregadores {
+        height: 38px;
+    }
+
+    .card-noticias {
+        margin-bottom: 20px;
     }
 }
 
@@ -949,6 +1024,10 @@ a:hover {
     .imagens-empregadores {
         height: 38px;
     }
+
+    .card-noticias {
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
@@ -1033,6 +1112,26 @@ a:hover {
 
     .imagens-empregadores {
         height: 38px;
+    }
+
+    .imagem-card-noticias {
+        height: 120px;
+    }
+    
+    .card-noticias {
+        height: 320px;
+    }
+    
+    .link-card-noticias {
+        font-size: 0.65em;
+    }
+
+    .padding-card-body {
+        padding: 5px;
+    }
+
+    .descricao-card-noticias {
+        font-size: 0.7em;
     }
 }
 
@@ -1179,6 +1278,14 @@ a:hover {
         font-size: 1.3em;
         top: -35px;
         left: -15px;
+    }
+
+    .imagem-card-noticias {
+        height: 170px;
+    }
+    
+    .card-noticias {
+        height: 390px;
     }
 }
 
