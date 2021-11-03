@@ -30,22 +30,24 @@ body {
 }
 
 .imagem-menu {
-    height: 50px;
+    height: 45px;
     margin-right: 8px;
 }
 
 .nome-menu {
-    font-size: 1.5em;
+    font-size: 1.4em;
     color: #274D80;
     font-weight: 600;
     font-family: 'PT Serif', serif;
     text-decoration: none !important;
+    margin-right: -5px;
+    margin-left: -5px;
 }
 
 .link-menu {
-    font-size: 0.8em;
+    font-size: 0.75em;
     text-decoration: none !important;
-    margin-left: 15px;
+    margin-left: 13px;
     font-weight: 500;
     color: #343a40!important;
 }
@@ -56,6 +58,7 @@ body {
 
 .fa-chevron-down {
     margin-left: 2px;
+    font-size: 0.8em;
 }
 
 .btn-post {
@@ -143,6 +146,7 @@ a:hover {
 
 .div-inputs {
     height: auto;
+    width: 100%;
     padding: 10px 0px;
     background-color: white;
     border-radius: 10px;
@@ -152,7 +156,7 @@ a:hover {
 
 .input-cidade {
     border: unset;
-    width: 100%;
+    width: 95%;
     height: 50px;
     font-size: 0.75em;
     padding-left: 40px;
@@ -161,23 +165,24 @@ a:hover {
 
 .input-trabalho {
     border: unset;
+    width: 95%;
     height: 50px;
-    width: 100%;
     font-size: 0.75em;
-    padding-left: 36px;
+    padding-left: 40px;
     margin-top: 6px;
+    margin-left: 10px;
 }
 
 .fa-search {
     position: absolute;
-    left: 23px;
+    left: 20px;
     top: 23px;
     font-size: 1.3em;
 }
 
 .map-section-um {
     position: absolute;
-    left: 29px;
+    left: 20px;
     top: 22px;
     font-size: 1.3em;
 }
@@ -221,7 +226,7 @@ a:hover {
 }
 
 .div-envelope {
-    width: 162px;
+    width: 175px;
     height: 47px;
     border-radius: 8px;
     background-color: white;
@@ -261,9 +266,9 @@ a:hover {
 }
 
 .div-upload {
-    width: 190px;
+    width: 208px;
     height: 52px;
-    padding-left: 30px;
+    padding-left: 35px;
     border-radius: 8px;
     background-color: white;
     box-shadow: 0px 4px 35px 0px rgb(70 86 117 / 10%);
@@ -280,7 +285,7 @@ a:hover {
     padding-top: 5px;
     padding-left: 15px;
     position: absolute;
-    top: -13px;
+    top: -18px;
     left: -48px;
     
 }
@@ -339,6 +344,7 @@ a:hover {
 }
 
 .card-popular-job {
+    text-align: left;
     display: flex;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: 5px;
@@ -368,7 +374,7 @@ a:hover {
     font-size: 0.8em;
     background-color: hsl(214deg 67% 92%);
     height: 25px;
-    width: 80px;
+    width: 125px;
     border-radius: 20px;
     padding-top: 2px;
     margin-left: 15px;
@@ -526,8 +532,8 @@ a:hover {
 
 
 .fa-apple {
-    font-size: 2em;
-    margin-top: 8px;
+    font-size: 2.5em;
+    margin-top: 2px;
     margin-right: 20px;
 }
 
@@ -572,8 +578,9 @@ a:hover {
     }
 
     .div-upload {
-        bottom: 23px;
-        left: 41px;
+        bottom: 40px;
+        left: 35px;
+        bottom: 17px;
         z-index: 8;
     }
 
@@ -602,7 +609,7 @@ a:hover {
     }
 
     .titulo-popular-jobs {
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .descricao-sections {
@@ -611,28 +618,32 @@ a:hover {
 
     .card-popular-job {
         display: inline-block !important;
-        height: 140px;
+        height: 155px;
         width: 135px;
-        padding-top: 5px;
+        padding-top: 11px;
         padding-left: 2px;
     }
 
+    .p-card-popular-jobs {
+        padding-top: unset;
+    }
+
     .div-full-time {
-        font-size: 0.7em;
-        height: 21px;
-        width: 65px;
+        font-size: 0.56em;
+        height: 20px;
+        width: 80px;
     }
     
     .div-private {
-        font-size: 0.7em;
-        height: 21px;
-        width: 65px;
+        font-size: 0.56em;
+        height: 20px;
+        width: 55px;
     }
     
     .div-urgent {
-        font-size: 0.7em;
-        height: 21px;
-        width: 65px;
+        font-size: 0.56em;
+        height: 20px;
+        width: 55px;
     }
 
     .imagem-feature-jobs {
@@ -714,6 +725,18 @@ a:hover {
         margin-right: 8px
     }
 
+    .input-1-responsivo {
+        width: 97%;
+    }
+    
+    .input-2-responsivo {
+        width: 97%;
+    }
+
+    .btn-div-input br {
+        display: none;
+    }
+
 }
 
 @media (max-width: 425px) and (min-width:  331px) {
@@ -747,8 +770,9 @@ a:hover {
     }
 
     .div-upload {
-        bottom: 23px;
-        left: 51px;
+        bottom: 40px;
+        left: 35px;
+        bottom: 17px;
         z-index: 8;
     }
 
@@ -784,28 +808,32 @@ a:hover {
 
     .card-popular-job {
         display: inline-block !important;
-        height: 140px;
+        height: 160px;
         width: 135px;
-        padding-top: 5px;
+        padding-top: 13px;
         padding-left: 2px;
     }
 
+    .p-card-popular-jobs {
+        padding-top: 5px !important;
+    }
+
     .div-full-time {
-        font-size: 0.7em;
-        height: 21px;
-        width: 65px;
+        font-size: 0.62em;
+        height: 20px;
+        width: 84px;
     }
     
     .div-private {
-        font-size: 0.7em;
-        height: 21px;
-        width: 65px;
+        font-size: 0.62em;
+        height: 20px;
+        width: 61px;
     }
     
     .div-urgent {
-        font-size: 0.7em;
-        height: 21px;
-        width: 65px;
+        font-size: 0.62em;
+        height: 20px;
+        width: 61px;
     }
 
     .imagem-feature-jobs {
@@ -856,7 +884,6 @@ a:hover {
     .card-noticias {
         margin-bottom: 15px;
     }
-
     
     .link-card-noticias {
         font-size: 0.65em;
@@ -887,6 +914,19 @@ a:hover {
         margin-top: 6px;
         margin-right: 8px
     }
+
+    .input-1-responsivo {
+        width: 97%;
+    }
+    
+    .input-2-responsivo {
+        width: 97%;
+    }
+
+    .btn-div-input br {
+        display: none;
+    }
+
 }
 
 @media (max-width: 575px) and (min-width:  426px) {
@@ -897,7 +937,7 @@ a:hover {
 
     .div-envelope {
         top: 15px;
-        left: 35px
+        left: 35px;
     }
 
     .div-candidates {
@@ -907,12 +947,13 @@ a:hover {
 
     .div-agencia {
         right: 15px;
-        top: 233px;
+        top: 220px;
     }
 
     .div-upload {
-        bottom: 20px;
-        left: 26px;
+        bottom: 40px;
+        left: 20px;
+        bottom: 17px;
     }
 
     .div-inputs {
@@ -1002,6 +1043,19 @@ a:hover {
         margin-top: 10px;
         margin-right: 15px
     }
+
+    .btn-div-input br {
+        display: none;
+    }
+
+    .input-1-responsivo {
+        width: 97%;
+    }
+    
+    .input-2-responsivo {
+        width: 97%;
+    }
+
 }
 
 @media (max-width: 767px) and (min-width: 576px) {
@@ -1016,7 +1070,7 @@ a:hover {
 
     .div-envelope {
         top: 20px;
-        left: 50px
+        left: 50px;
     }
 
     .div-candidates {
@@ -1033,27 +1087,34 @@ a:hover {
     .div-upload {
         bottom: 40px;
         left: 20px;
+        padding-left: 30px;
     }
 
     .map-section-um {
         position: absolute;
-        left: 35px;
-    }
-
-    .input-cidade {
-        width: 150px;
-        height: 50px;
+        left: 23px;
     }
     
     .input-trabalho {
-        height: 50px;
-        width: 217px;
+        padding-left: 35px;
     }
 
     .div-inputs {
         margin-left: auto;
         margin-right: auto;
         width: 450px;
+    }
+
+    .input-1-responsivo {
+        width: 55%;
+    }
+
+    .input-2-responsivo {
+        width: 45%;
+    }
+
+    .btn-div-input br {
+        display: none;
     }
 
     .icone-popular-job {
@@ -1139,7 +1200,7 @@ a:hover {
     
     .div-envelope {
         top: 20px;
-        left: 102px
+        left: 102px;
     }
 
     .div-candidates {
@@ -1156,22 +1217,27 @@ a:hover {
     .div-upload {
         bottom: 55px;
         left: 55px;
+        height: 61px;
+        padding-left: 45px;
     }
 
-    .input-cidade {
-        width: 150px;
-        height: 50px;
-    }
-    
-    .input-trabalho {
-        height: 50px;
-        width: 217px;
+    .icone-upload {
+        top: -15px;
+        left: -56px;
     }
 
     .btn-div-input {
-        width: 130px;
+        width: 100%;
         margin-top: unset;
         height: 60px;
+    }
+
+    .input-1-responsivo {
+        width: 50%;
+    }
+
+    .input-2-responsivo {
+        width: 50%;
     }
 
     .imagens-logo {
@@ -1217,7 +1283,7 @@ a:hover {
     }
     
     .card-noticias {
-        height: 320px;
+        height: 330px;
     }
     
     .link-card-noticias {
@@ -1267,24 +1333,26 @@ a:hover {
     }
 
     .nome-menu {
-        font-size: 1.2em;
+        font-size: 1.15em;
+        margin-left: unset;
     }
 
     .link-menu {
-        font-size: 0.7em;
-        margin-left: 12px;
+        font-size: 0.619em;
+        margin-left: 11px;
     }
 
     .btn-post {
-        font-size: 0.65em;
+        font-size: 0.61em;
         width: 100px;
         margin-top: 3px;
     }
     
     .btn-login {
-        font-size: 0.65em;
+        font-size: 0.61em;
         width: 100px;
         margin-top: 3px;
+        padding-left: 10px;
     }
     
     .btn-upload {
@@ -1307,7 +1375,7 @@ a:hover {
     }
 
     .btn-div-input {
-        font-size: 0.76em;
+        font-size: 0.7em;
         width: 100px;
         margin-top: unset;
         margin-left: -15px;
@@ -1315,13 +1383,11 @@ a:hover {
     
     .fa-search {
         font-size: 1em;
-        left: 20px;
+        left: 17px;
         top: 17px;
     }
 
     .input-trabalho {
-        height: 50px;
-        width: 180px;
         font-size: 0.7em;
         padding-left: 24px;
         margin-top: unset !important;
@@ -1330,13 +1396,12 @@ a:hover {
     .map-section-um {
         font-size: 1em;
         top: 18px;
+        left: 4px;
     }
 
     .input-cidade {
-        height: 50px;
-        width: 118px;
         font-size: 0.7em;
-        padding-left: 30px;
+        padding-left: 18px;
         margin-top: unset !important;
     }
 
@@ -1354,11 +1419,22 @@ a:hover {
     .div-upload {
         bottom: 25px;
         left: 5px;
+        width: 195px;
+    }
+
+    .icone-upload {
+        top: -20px;
+        left: -48px;
     }
 
     .div-envelope {
         top: 35px;
         left: -6px;
+        width: 170px;
+    }
+
+    .texto-envelope {
+        font-size: 0.65em;
     }
 
     .div-agencia {
@@ -1408,7 +1484,6 @@ a:hover {
         padding: 8px 8px 8px 8px;
     }
     
-    
     .fa-apple {
         font-size: 1.85em;
         margin-top: 9px;
@@ -1446,19 +1521,15 @@ a:hover {
     }
 
     .input-cidade {
-        width: 133px;
-        height: 50px;    
+        margin-top: 7px;
+    }
+
+    .input-trabalho {
         margin-top: 7px;
     }
 
     .map-section-um {
         top: 23px;
-    }
-    
-    .input-trabalho {
-        height: 50px;
-        width: 217px;
-        margin-top: 7px;
     }
 
     .fa-search {
@@ -1469,7 +1540,7 @@ a:hover {
         width: 130px;
         margin-top: unset;
         height: 60px;
-        margin-left: -30px;
+        margin-left: -20px;
     }
 
     .titulo-section-um {
@@ -1487,7 +1558,7 @@ a:hover {
     }
 
     .div-envelope {
-        width: 195px;
+        width: 201px;
         height: 60px;
         top: 46px;
         left: -6px;
@@ -1505,7 +1576,7 @@ a:hover {
 
     .texto-envelope {
         font-size: 0.7em;
-        margin-left: 25px;
+        margin-left: 22px;
         padding-top: 16px;
     }
 
@@ -1538,7 +1609,7 @@ a:hover {
     .div-upload {
         width: 210px;
         height: 60px;
-        padding-left: 18px;
+        padding-left: 10px;
         bottom: 40px;
         left: 30px;
     }
